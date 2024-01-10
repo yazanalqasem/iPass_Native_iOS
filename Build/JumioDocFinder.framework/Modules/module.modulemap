@@ -1,0 +1,11 @@
+framework module JumioDocFinder {
+  umbrella header "JumioDocFinder.h"
+
+  export *
+  module * { export * }
+}
+
+module JumioDocFinder.Swift {
+  header "JumioDocFinder-Swift.h"
+  requires objc
+}

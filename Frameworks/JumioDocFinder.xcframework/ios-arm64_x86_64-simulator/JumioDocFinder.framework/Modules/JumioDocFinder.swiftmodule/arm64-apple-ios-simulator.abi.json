@@ -1,0 +1,307 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JumioDocFinder",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TensorflowSwiftWrapper",
+        "printedName": "TensorflowSwiftWrapper",
+        "declKind": "Import",
+        "moduleName": "JumioDocFinder",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Jumio",
+        "printedName": "Jumio",
+        "declKind": "Import",
+        "moduleName": "JumioDocFinder"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JumioDocFinder",
+        "printedName": "JumioDocFinder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14JumioDocFinderAAC7versionSSvpZ",
+            "mangledName": "$s14JumioDocFinderAAC7versionSSvpZ",
+            "moduleName": "JumioDocFinder",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14JumioDocFinderAAC7versionSSvgZ",
+                "mangledName": "$s14JumioDocFinderAAC7versionSSvgZ",
+                "moduleName": "JumioDocFinder",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JumioDocFinder",
+                "printedName": "JumioDocFinder.JumioDocFinder",
+                "usr": "s:14JumioDocFinderAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14JumioDocFinderAACABycfc",
+            "mangledName": "$s14JumioDocFinderAACABycfc",
+            "moduleName": "JumioDocFinder",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setupDocFinder",
+            "printedName": "setupDocFinder(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14JumioDocFinderAAC05setupbC04datay10Foundation4DataV_tF",
+            "mangledName": "$s14JumioDocFinderAAC05setupbC04datay10Foundation4DataV_tF",
+            "moduleName": "JumioDocFinder",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupDocClassifier",
+            "printedName": "setupDocClassifier(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14JumioDocFinderAAC05setupB10Classifier4datay10Foundation4DataV_tF",
+            "mangledName": "$s14JumioDocFinderAAC05setupB10Classifier4datay10Foundation4DataV_tF",
+            "moduleName": "JumioDocFinder",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processDocFinder",
+            "printedName": "processDocFinder(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14JumioDocFinderAAC07processbC04dataypSgyp_tF",
+            "mangledName": "$s14JumioDocFinderAAC07processbC04dataypSgyp_tF",
+            "moduleName": "JumioDocFinder",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "processDocClassifier",
+            "printedName": "processDocClassifier(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14JumioDocFinderAAC07processB10Classifier4dataypSgyp_tF",
+            "mangledName": "$s14JumioDocFinderAAC07processB10Classifier4dataypSgyp_tF",
+            "moduleName": "JumioDocFinder",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clean",
+            "printedName": "clean()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14JumioDocFinderAAC5cleanyyF",
+            "mangledName": "$s14JumioDocFinderAAC5cleanyyF",
+            "moduleName": "JumioDocFinder",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14JumioDocFinderAAC",
+        "mangledName": "$s14JumioDocFinderAAC",
+        "moduleName": "JumioDocFinder",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "JumioDynamicDocFinder",
+            "printedName": "JumioDynamicDocFinder",
+            "usr": "s:5Jumio0A16DynamicDocFinderP",
+            "mangledName": "$s5Jumio0A16DynamicDocFinderP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JumioDocFinder",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "JumioDocFinder"
+      },
+      {
+        "kind": "Import",
+        "name": "TensorflowSwiftWrapper",
+        "printedName": "TensorflowSwiftWrapper",
+        "declKind": "Import",
+        "moduleName": "JumioDocFinder",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ec2-user\/workspace\/S_mobile-sdk-swift_release_4.8.0\/JumioDocFinder\/JumioDocFinder\/Classes\/JumioDocFinder.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 7,
+      "value": "\"4.8.0\""
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "JumioDeviceRisk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MDI",
+        "printedName": "MDI",
+        "declKind": "Import",
+        "moduleName": "JumioDeviceRisk",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Jumio",
+        "printedName": "Jumio",
+        "declKind": "Import",
+        "moduleName": "JumioDeviceRisk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JumioDeviceRisk",
+        "printedName": "JumioDeviceRisk",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15JumioDeviceRiskAAC7versionSSvpZ",
+            "mangledName": "$s15JumioDeviceRiskAAC7versionSSvpZ",
+            "moduleName": "JumioDeviceRisk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15JumioDeviceRiskAAC7versionSSvgZ",
+                "mangledName": "$s15JumioDeviceRiskAAC7versionSSvgZ",
+                "moduleName": "JumioDeviceRisk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JumioDeviceRisk",
+                "printedName": "JumioDeviceRisk.JumioDeviceRisk",
+                "usr": "s:15JumioDeviceRiskAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15JumioDeviceRiskAACABycfc",
+            "mangledName": "$s15JumioDeviceRiskAACABycfc",
+            "moduleName": "JumioDeviceRisk",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initiate",
+            "printedName": "initiate(with:and:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15JumioDeviceRiskAAC8initiate4with3andySS_SStF",
+            "mangledName": "$s15JumioDeviceRiskAAC8initiate4with3andySS_SStF",
+            "moduleName": "JumioDeviceRisk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "obtainData",
+            "printedName": "obtainData(successCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15JumioDeviceRiskAAC10obtainData17successCompletionyySbcSg_tF",
+            "mangledName": "$s15JumioDeviceRiskAAC10obtainData17successCompletionyySbcSg_tF",
+            "moduleName": "JumioDeviceRisk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15JumioDeviceRiskAAC",
+        "mangledName": "$s15JumioDeviceRiskAAC",
+        "moduleName": "JumioDeviceRisk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "JumioDynamicDeviceRisk",
+            "printedName": "JumioDynamicDeviceRisk",
+            "usr": "s:5Jumio0A17DynamicDeviceRiskP",
+            "mangledName": "$s5Jumio0A17DynamicDeviceRiskP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ec2-user\/workspace\/S_mobile-sdk-swift_release_4.8.0\/JumioDeviceRisk\/JumioDeviceRisk\/Classes\/JumioDeviceRisk.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 7,
+      "value": "\"4.8.0\""
+    }
+  ]
+}

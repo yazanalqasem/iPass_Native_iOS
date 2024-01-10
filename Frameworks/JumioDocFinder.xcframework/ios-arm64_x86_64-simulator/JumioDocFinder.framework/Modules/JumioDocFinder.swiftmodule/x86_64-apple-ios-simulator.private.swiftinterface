@@ -1,0 +1,21 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name JumioDocFinder
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Accelerate
+import Foundation
+import Jumio
+@_exported import JumioDocFinder
+import Swift
+import _Concurrency
+import _StringProcessing
+public class JumioDocFinder : Jumio.Dynamic.DocFinder {
+  public static let version: String
+  required public init()
+  public func setupDocFinder(data: Data)
+  public func setupDocClassifier(data: Data)
+  public func processDocFinder(data: Any) -> Any?
+  public func processDocClassifier(data: Any) -> Any?
+  public func clean()
+  @objc deinit
+}
