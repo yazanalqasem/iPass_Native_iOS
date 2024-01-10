@@ -9,6 +9,7 @@ import Jumio
 
 class ViewController: UIViewController {
     // MARK: - IBOutlets
+    
     @IBOutlet weak var dataCenterSegmentControl: UISegmentedControl!
     @IBOutlet weak var tokenTextField: UITextField!
     @IBOutlet weak var customUIButton: CustomButton!
